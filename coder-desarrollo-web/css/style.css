@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*Header*/
+
+header {
+    background-color: #2b2b30;
+}
+
+
+
+header nav p {
+    display: inline-flex;
+    padding-inline-start: 700px;
+    font-size: 50px;  
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 150px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin-left: 150px;
+}
+
+/*Main*/
+
+/*Section 1*/
+
+.Camisetas h2 {
+    margin-top: 100px;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    background-color: #260268;
+}
+
+.Camisetas .grid-camisetas {
+    display: grid;
+    padding-left: 450px;
+    padding-top: 20px;
+    padding-right: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 55px;
+    background-color: aqua;
+}
+
+.Camisetas .grid-camisetas .img1 {
+    display: grid;
+    width: 750px;
+    align-items: center;        
+}
+
+.Camisetas .grid-camisetas .img1 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Camisetas .grid-camisetas .img2 {
+    display: grid;
+    width: 750px;
+    align-items: center;        
+}
+
+.Camisetas .grid-camisetas .img2 img {
+    width: 750px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Camisetas .grid-camisetas .img3 {
+    display: grid;
+    width: 750px;
+    align-items: center;        
+}
+
+.Camisetas .grid-camisetas .img3 img {
+    width: 750px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Camisetas .grid-camisetas h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.Camisetas .grid-camisetas a {
+    font-size: 40px;
+    text-align: center;
+}
+
+.Camisetas .grid-camisetas p {
+    background-color: #2b2b30;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Pantalones h4 {
+    margin-top: 100px;
+    color: rgb(25, 0, 255);
+    text-align: center;
+    font-size: 50px;
+    background-color: #0bf82a;
+}
+
+.Pantalones .grid-pants {
+    display: grid;
+    padding-left: 450px;
+    padding-top: 20px;
+    padding-right: 10px;
+    grid-template-columns:  repeat(3, 1fr);
+    background-color: rgb(214, 41, 41);
+}
+
+.Pantalones .grid-pants .img4 {
+    display: grid;
+    width: 750px;
+    align-items: center; 
+}
+
+.Pantalones .grid-pants .img4 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Pantalones .grid-pants .img5 {
+    display: grid;
+    width: 750px;
+    align-items: center; 
+}
+
+.Pantalones .grid-pants .img5 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Pantalones .grid-pants .img6 {
+    display: grid;
+    width: 520px;
+    align-items: center; 
+}
+
+.Pantalones .grid-pants .img6 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Pantalones .grid-pants h5 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.Pantalones .grid-pants a {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*Section 2*/
+
+
+
+/*Section 3*/
+
+
+
+/*Footer*/
+
